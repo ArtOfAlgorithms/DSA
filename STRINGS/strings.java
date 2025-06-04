@@ -11,7 +11,8 @@ public class strings{
         String name;
 
         System.out.print("Enter name: ");
-        name = sc.next();
+        // name = sc.next();
+        name = sc.nextLine(); // inputs full line
         System.out.println("Name: " + name);
     }
 }
