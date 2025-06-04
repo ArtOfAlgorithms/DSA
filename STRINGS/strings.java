@@ -14,5 +14,6 @@ public class strings{
         // name = sc.next();
         name = sc.nextLine(); // inputs full line
         System.out.println("Name: " + name);
+        System.out.println("Length: " + str.length());
     }
 }
