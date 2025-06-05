@@ -4,5 +4,6 @@ public class concatenation {
         String lastname = "Chheda";
         String fullname = firstname + " " + lastname;
         System.out.println(fullname);
+        System.out.println(fullname.charAt(1));
     }
 }
